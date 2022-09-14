@@ -1,0 +1,6 @@
+"""Random"""
+
+
+
+Apple = int(6)
+print (Apple)
