@@ -36,8 +36,9 @@ def is_equal(a: list[int], b: list[int]) -> bool:
     i: int = 0
     if len(a) != len(b): 
         return False 
-    while i < len(a): 
-        if a[1] != b[1]: 
+    while i < len(a) and i < len(b): 
+        if a[i] != b[i]: 
             return False
-        i = i + 1
+        else:
+            i = i + 1
     return True
