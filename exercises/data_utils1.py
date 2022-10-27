@@ -1,6 +1,8 @@
 """This is my progress on assignment ex08"""
 
+
 from csv import DictReader
+
 
 def red_csv_rows(path:str) -> list[dict[str, str]]: 
     """This function wil read csv data into a list of rows, where each row if respresented by a dictionary of strings."""
